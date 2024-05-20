@@ -1,4 +1,80 @@
+// 1. Зробив двома способами
+if (humb > 2) {
+    if (free > 0) {
+        console.log('Ми поїли')
+    } else {
+        console.log('Ми йдемо в інше кафе')
+    }
+} else {
+    console.log('Ми йдемо в інше кафе')
+}
 
+if (gumb > 2 && free > 0) {
+    console.log('Ми поїли')
+} else {
+    console.log('Ми йдемо в інше кафе')
+}
+
+//2
+let price = 999;
+if (price >= 1000 && price <= 1900) {
+    console.log('true');
+} else {
+    console.log('false');
+}
+
+//3
+let res = (price >= 1000 && price <= 1900)
+console.log(res)
+if (res != true) {
+    console.log('не в діапазоні')
+} else {
+    console.log('в діапазоні')
+}
+
+let res = (price >= 1000 && price <= 1900)
+console.log(res)
+if (res == true) {
+    console.log('в діапазоні')
+} else {
+    console.log('не в діапазоні')
+}
+
+//4
+
+let season = 7
+
+if (season === 12 || season === 1 || season === 2) {
+    console.log('season is winter')
+} else if (season === 3 || season === 4 || season === 5) {
+    console.log('season is spring')
+} else if (season === 6 || season === 7 || season === 8) {
+    console.log('season is summer')
+} else {
+    console.log('season is autumn')
+}
+
+//5
+
+if (a > b && a > c) {
+    if (b > c) {
+        console.log('b is middle')
+    } else {
+        console.log('c is middle')
+    }
+} else if (b > a && b > c) {
+    if (a > c) {
+        console.log('a is middle')
+    } else {
+        console.log('c is middle')
+    }
+} else {
+    if (a > b) {
+        console.log('a is middle')
+    } else {
+        console.log('b is middle')
+    }
+}
 
 
 /*
