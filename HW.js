@@ -185,7 +185,7 @@ for (let i = 0; i < arr.length; i++) {
 //12
 
 let product = 1;
-const arr = [[5, 1], [0.2, 4, 0.5], [3, 9]]
+const arr = [[1, 2], [3, 4], [5, 6, 7]]
 
 for (i = 0; i < arr.length; i++) {
     for (j = 0; j < arr[i].length; j++) {
