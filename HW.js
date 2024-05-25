@@ -1,5 +1,5 @@
 // 1. Зробив двома способами
-if (humb > 2) {
+if (humb > 3) {
     if (free > 0) {
         console.log('Ми поїли')
     } else {
@@ -9,7 +9,7 @@ if (humb > 2) {
     console.log('Ми йдемо в інше кафе')
 }
 
-if (gumb > 2 && free > 0) {
+if (gumb > 3 && free > 0) {
     console.log('Ми поїли')
 } else {
     console.log('Ми йдемо в інше кафе')
@@ -40,6 +40,14 @@ if (res == true) {
 } else {
     console.log('не в діапазоні')
 }
+
+
+if (!(price >= 1000 && price <= 1900)) {
+    console.log('ціна не в діапазоні')
+} else {
+    console.log('ціна в діапазоні')
+}
+
 
 //4
 
