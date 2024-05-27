@@ -169,7 +169,7 @@ for (let j = 1; j < 10; j++) {
 
 console.log(myArray)
 
-//9
+//10
 
 let total = 0;
 const myArr = [2, 3, 4, 5, 6];
